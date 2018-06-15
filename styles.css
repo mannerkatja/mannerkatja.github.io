@@ -1,0 +1,67 @@
+h1 {
+  font-size: 100px;
+  color: black;
+  margin-left: 300px;
+  font-family: 'Abril Fatface', cursive;
+}
+
+h2 {
+  font-size: 70 px;
+  color: white;
+  text-align: center;
+  font-family: helvetica;
+}
+
+p {
+  font-size: 30 px;
+  color: white;
+  text-align: center;
+  font-family: helvetica;
+}
+
+.about {
+  background-color: #EAAA69;
+  padding: 20px
+}
+
+.cowgirl img {
+  width: 40%;
+  margin: 0 auto;
+  display: block;
+}
+
+.pattern1 img {
+  width: 40%;
+  margin: 0 auto;
+  display: block;
+}
+
+.pattern2 img {
+  width: 40%;
+  margin: 0 auto;
+  display: block;
+}
+
+.pattern4 img {
+  width: 40%;
+  margin: 0 auto;
+  display: block;
+}
+
+.pattern3 img {
+  width: 40%;
+  margin: 0 auto;
+  display: block;
+}
+
+.flamingo img {
+  width: 40%;
+  margin: 0 auto;
+  display: block;
+}
+
+.goteborg img {
+  width: 40%;
+  margin: 0 auto;
+  display: block;
+}

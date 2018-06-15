@@ -9,14 +9,14 @@ h2 {
   font-size: 70 px;
   color: white;
   text-align: center;
-  font-family: helvetica;
+  font-family: 'Assistant', sans-serif;
 }
 
 p {
   font-size: 30 px;
   color: white;
   text-align: center;
-  font-family: helvetica;
+  font-family: 'Assistant', sans-serif;
 }
 
 .about {

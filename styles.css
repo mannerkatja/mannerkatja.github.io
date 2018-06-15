@@ -6,32 +6,46 @@ h1 {
 }
 
 h2 {
+  font-size: 30 px;
+  color: #252424;
+  text-align: center;
+  font-family: 'Julius Sans One', sans-serif;
+}
+
+h3 {
   font-size: 70 px;
+  color: white;
+  text-align: center;
+  font-family: 'Julius Sans One', sans-serif;
+}
+
+p {
+  font-size: 20 px;
   color: white;
   text-align: center;
   font-family: 'Assistant', sans-serif;
 }
 
-p {
-  font-size: 30 px;
-  color: white;
+.tagline {
+  font-size: 20 px;
+  color: #252424;
   text-align: center;
   font-family: 'Assistant', sans-serif;
 }
 
 .about {
-  background-color: #EAAA69;
+  background-color: #252424;
   padding: 20px
 }
 
 .cowgirl img {
-  width: 40%;
+  width: 70%;
   margin: 0 auto;
   display: block;
 }
 
 .pattern1 img {
-  width: 40%;
+  width: 70%;
   margin: 0 auto;
   display: block;
 }

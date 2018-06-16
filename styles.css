@@ -1,7 +1,6 @@
 h1 {
   font-size: 100px;
   color: #252424;
-  margin-left: 300px;
   font-family: 'Abril Fatface', cursive;
 }
 
@@ -15,6 +14,7 @@ h2 {
 h3 {
   font-size: 70 px;
   color: white;
+  color-link: white;
   text-align: center;
   font-family: 'Julius Sans One', sans-serif;
 }
@@ -23,7 +23,46 @@ p {
   font-size: 20 px;
   color: white;
   text-align: center;
-  font-family: 'Assistant', sans-serif;
+  font-family: 'Julius Sans One', sans-serif;
+}
+
+a{
+  color:white;
+}
+
+.header{
+  display: flex;
+  align-items: center;
+  background-color: #d5b9ae;
+  justify-content: center;
+}
+
+.tagline{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.picturebox1{
+  display: flex;
+  align-items: center;
+}
+
+.picturebox2{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.picturebox3{
+  display: flex;
+  align-items:center;
+  justify-content:space-around;
+}
+
+.container {display: flex;
+align-items: center;
+justify-content: center;
 }
 
 .tagline {
@@ -33,10 +72,11 @@ p {
   font-family: 'Assistant', sans-serif;
 }
 
-.about {
+.footer{  display: flex;
+  align-items: center;
   background-color: #252424;
-  padding: 20px
-}
+  justify-content: center;}
+
 
 .cowgirl img {
   width: 70%;
@@ -51,31 +91,31 @@ p {
 }
 
 .pattern2 img {
-  width: 40%;
+  width: 70%;
+  margin: 0 auto;
+  display: block;
+  }
+
+.pattern3 img {
+  width: 70%;
   margin: 0 auto;
   display: block;
 }
 
 .pattern4 img {
-  width: 40%;
-  margin: 0 auto;
-  display: block;
-}
-
-.pattern3 img {
-  width: 40%;
+  width: 90%;
   margin: 0 auto;
   display: block;
 }
 
 .flamingo img {
-  width: 40%;
+  width: 60%;
   margin: 0 auto;
   display: block;
 }
 
 .goteborg img {
-  width: 40%;
+  width: 100%;
   margin: 0 auto;
   display: block;
 }

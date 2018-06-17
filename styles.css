@@ -12,18 +12,20 @@ h2 {
 }
 
 h3 {
-  font-size: 70px;
+  font-size: 30px;
   color: white;
-  color-link: white;
-  text-align: center;
+  padding-left: 20%;
+  text-align:left;
   font-family: 'Julius Sans One', sans-serif;
 }
 
 p {
-  font-size: 25px;
+  font-size: 21px;
   color: white;
-  text-align: center;
-  font-family: 'Julius Sans One', sans-serif;
+  padding-left: 20%;
+  text-align: left;
+  width: 70%;
+  font-family: 'Karla', sans-serif;
 }
 
 a{
@@ -33,8 +35,8 @@ a{
 .header{
   display: flex;
   align-items: center;
-  background-color: white;
   justify-content: center;
+  border-bottom: 10px solid #252424;
 }
 
 .tagline{
@@ -55,6 +57,11 @@ a{
   width: 50%
 }
 
+.bild{
+  width: 40%;
+  height: auto;
+}
+
 .container {
   display: flex;
   align-items: center;
@@ -68,14 +75,38 @@ a{
   font-family: 'Assistant', sans-serif;
 }
 
-.footer {
+.container {
   display: flex;
   align-items: center;
-  background-color: #252424;
-  padding: 100px;
   justify-content: center;
+  background-color: #252424;
 }
 
+.about{
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+  width: 70%;
+  padding-bottom: 30px;
+}
+
+.contact{
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 50%;
+  padding: 70px;
+}
+
+.contact img{
+  max-width: 70%;
+  height: auto;
+}
+
+
+.pic{
+  width: 30%
+}
 
 .box img {
   width: 70%;
@@ -87,16 +118,27 @@ a{
 h1{
     font-size: 40px;
   }
+
 h2 {
     font-size: 18px;
   }
+
 p{
+  text-align: center;
   font-size: 14px;
+  padding-top: 50px;
 }
+
 .container{
     display: block;
   }
+
 .box {
     width: 100%;
   }
+
+.contact img {
+  max-width: 50%;
+  height: auto;
+}
 }

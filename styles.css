@@ -125,13 +125,19 @@ h2 {
 
 p{
   text-align: center;
+  align-items: center;
+  justify-content: center;
   font-size: 14px;
   padding-top: 50px;
 }
 
 .container{
-    display: block;
-  }
+  flex-direction: column;
+}
+
+.about{
+  width: 100%;
+}
 
 .box {
     width: 100%;
